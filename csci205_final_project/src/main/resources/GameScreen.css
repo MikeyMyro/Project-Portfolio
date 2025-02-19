@@ -1,0 +1,27 @@
+/*
+ * CSS file for the game screen
+ */
+
+/* Styling the grid itself of connection tiles */
+.grid {
+    -fx-spacing: 15;
+    -fx-padding: 15;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+    -fx-alignment: Center;
+    -fx-background-color: LightBlue;
+    -fx-min-width: 1000;
+    -fx-min-height: 800;
+}
+
+/* Styling the pop up banners telling the player when they are one away
+ * or when they have won or lost
+ */
+.notificationText {
+    -fx-text-fill: BLACK;
+    -fx-font-family: Arial;
+    -fx-font-weight: BOLD;
+    -fx-background-color: lightgrey;
+    -fx-opacity: 0;
+    -fx-padding: 10;
+}
